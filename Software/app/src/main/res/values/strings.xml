@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Brain Boost Alarm</string>
+    <string name="add_new_alarm">Add new alarm</string>
+    <string name="no_alarms_text">There is currently no alarms. Add a new alarm.</string>
+    <string name="emotikon_mjeseca">Emotikon mjeseca</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="solve_challenge_text">Solve the challenge to stop the alarm.</string>
+    <string name="solve_challenge_title">Alarm Ringing</string>
+</resources>

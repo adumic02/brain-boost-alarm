@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_blue_dark_color">#222831</color>
+    <color name="accent_color">#00ADB5</color>
+    <color name="black_gray_color">#393E46</color>
+    <color name="darker_gray_color">#A7A7A7</color>
+    <color name="white_gray_color">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#808080</color>
+
+
+    <!-- BOJE MATEMATICKI IZAZOV-->
+    <color name="math_quiz_background">#0053B5</color>
+    <color name="math_quiz_equation_card">#00DEE8</color>
+    <color name="math_quiz_first_solution_card">#8d07ff</color>00E20A
+    <color name="math_quiz_second_solution_card">#00EC80</color>#00B508
+    <color name="math_quiz_third_solution_card">#FF73F9</color>#B500AD
+    <color name="math_quiz_fourth_solution_card">#FFA63C</color>#B56200
+
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    app:cardCornerRadius="20dp"
+    android:background="@color/white"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_clock"
+            android:textColor="@color/darker_gray_color"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:gravity="center"
+            android:textSize="32sp"
+            tools:text="07:00">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="80dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginEnd="4dp">
+
+                <TextView
+                    android:id="@+id/tv_monday"
+                    android:textColor="@color/darker_gray_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="M">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginEnd="4dp">
+
+                <TextView
+                    android:id="@+id/tv_tuesday"
+                    android:textColor="@color/darker_gray_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="T">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginEnd="4dp">
+
+                <TextView
+                    android:id="@+id/tv_wednesday"
+                    android:textColor="@color/darker_gray_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="W">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginEnd="4dp">
+
+                <TextView
+                    android:id="@+id/tv_thursday"
+                    android:textColor="@color/darker_gray_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="T">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginEnd="4dp">
+
+                <TextView
+                    android:id="@+id/tv_friday"
+                    android:textColor="@color/darker_gray_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="F">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginEnd="4dp">
+
+                <TextView
+                    android:id="@+id/tv_saturday"
+                    android:textColor="@color/darker_gray_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="S">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_sunday"
+                    android:textColor="@color/darker_gray_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="S">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/alarm_switch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="25dp"
+            android:theme="@style/SCBSwitch">
+        </com.google.android.material.switchmaterial.SwitchMaterial>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
